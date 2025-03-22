@@ -1,0 +1,21 @@
+1)_avg order processing time = AVERAGE(Orders[_order processing time])
+
+2)_avg order value = DIVIDE([_sum of sales], COUNT(Orders[Order ID]))
+
+3)_count order = COUNT(Orders[Order ID])
+
+4)_most popular product = 
+ VAR TopProduct =
+    TOPN(1, SUMMARIZE(Orders, Orders[Product Name], "TotalSales", SUM(Orders[Sales])),
+    [TotalSales],DESC
+    )
+RETURN
+    CONCATENATEX(TopProduct, Orders[Product Name], ", ")
+
+5)_profit margin = -DIVIDE([_total profit],[_sum of sales], 0)
+
+6)_repeat customers = DIVIDE(COUNT(Orders[Customer ID]) - DISTINCTCOUNT(Orders[Customer ID]), COUNT(Orders[Customer ID]))
+
+7)_sum of sales = SUM(Orders[Sales]) 
+
+8)_total profit = SUM(Orders[Profit])
