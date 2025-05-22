@@ -105,3 +105,18 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 
 ## 🌟 About Me
 
+Temitope Oriowo
+Data Engineer | BI Analyst
+
+I build data solutions that turn raw data into business value. With 6+ years of experience, I specialize in:
+
+SQL & ETL pipelines (Azure, Fivetran, SSIS)
+
+Data modeling (Star Schema, Medallion Architecture)
+
+BI & analytics (Power BI, Python)
+
+PMP-certified with a track record of delivering data-driven insights across healthcare, finance, and retail.
+
+🔗 Let's connect:
+LinkedIn | Email
