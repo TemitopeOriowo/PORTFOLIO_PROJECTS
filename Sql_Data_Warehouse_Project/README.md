@@ -106,6 +106,7 @@ This project is licensed under the [MIT License](LICENSE). You are free to use, 
 ## 🌟 About Me
 
 Temitope Oriowo
+
 Data Engineer | BI Analyst
 
 I build data solutions that turn raw data into business value. With 6+ years of experience, I specialize in:
